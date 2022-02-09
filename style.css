@@ -1,7 +1,6 @@
-/* stylelint-disable length-zero-no-unit */
 body {
   background-color: #f7f7f9;
-  margin: 0px;
+  margin: 0;
 }
 
 .nav_container {
