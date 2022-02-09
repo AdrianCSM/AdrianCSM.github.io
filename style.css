@@ -1,5 +1,7 @@
 body {
   background-color: #f7f7f9;
+  display: block;
+  margin: 0px;
 }
 
 .nav_container {
@@ -26,7 +28,7 @@ body {
 .main_container {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: auto;
   height: 650px;
   background-image: url('images/header-background-mobile.svg');
   background-repeat: no-repeat;
