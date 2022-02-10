@@ -304,6 +304,18 @@ button {
   box-sizing: border-box;
 }
 
+button:hover {
+  background-color: #6070ff;
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.24), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:active {
+  background-color: #2230d2;
+  color: white;
+}
+
 .project img {
   width: 100%;
 }
