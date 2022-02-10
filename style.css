@@ -47,8 +47,7 @@ body {
   align-items: center;
   justify-content: center;
   color: #172b4d;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 20px;
 }
 
 .desc {
@@ -323,8 +322,7 @@ button:active {
 .aboutContainer {
   display: flex;
   flex-direction: column;
-  margin-left: -7px;
-  width: 105%;
+  width: 100%;
   border-top-right-radius: 80px;
   background-color: #fff;
 }
@@ -362,6 +360,7 @@ button:active {
   margin-top: 6px;
   padding-top: 24px;
   background-color: #fff;
+  width: 65%;
 }
 
 .skillsDropdown {
@@ -433,8 +432,8 @@ button:active {
   align-items: center;
   justify-content: center;
   color: #172b4d;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .aboutDescription {
@@ -463,6 +462,7 @@ button:active {
   display: flex;
   align-items: flex-start;
   margin-left: 24px;
+  width: 65%;
 }
 
 .aboutSocials {
@@ -472,4 +472,8 @@ button:active {
   padding-right: 50%;
   justify-content: space-between;
   list-style: none;
+}
+
+.mySkills {
+  width: 85%;
 }
