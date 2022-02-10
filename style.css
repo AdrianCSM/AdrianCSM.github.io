@@ -1,9 +1,9 @@
 body {
-  background-color: #f7f7f9;
+  background-color: #f8f8f8;
   margin: 0;
 }
 
-.nav_container {
+.navContainer {
   display: flex;
   padding: 20px;
   background-color: #fff;
@@ -24,12 +24,12 @@ body {
   justify-content: center;
 }
 
-.main_container {
+.mainContainer {
   display: flex;
   flex-direction: column;
   width: auto;
-  height: 650px;
-  background-image: url('images/header-background-mobile.svg');
+  height: 720px;
+  background-image: url('images/header-shapes mobile@2x.svg');
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: #fff;
@@ -79,7 +79,7 @@ body {
   margin-left: 24px;
 }
 
-.socials_box {
+.socialsBox {
   display: flex;
   padding-left: 24px;
   margin-left: -3px;
@@ -93,4 +93,217 @@ body {
   align-items: center;
   justify-content: center;
   padding: 2px;
+}
+
+.projects {
+  display: grid;
+  row-gap: 88px;
+  justify-content: center;
+  padding: 60px 24px;
+  list-style-type: none;
+}
+
+.project {
+  padding: 16px 16px 24px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 16px;
+  border: 1px solid #dfe1e6;
+  background-color: #fff;
+}
+
+li {
+  display: list-item;
+}
+
+.description {
+  padding: 16px;
+}
+
+div {
+  display: block;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  margin-top: -10px;
+  margin-left: -12px;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  text-align: left;
+}
+
+.subTitle {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: -8px;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  column-gap: 32px;
+  margin-top: -30px;
+}
+
+.infoContainer {
+  display: flex;
+  margin-left: -60px;
+  list-style-type: none;
+}
+
+ul {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 40px;
+  list-style: none;
+}
+
+.role {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-right: 10px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.role::before {
+  content: url(/images/circle.svg);
+  width: 14px;
+  padding-right: 5px;
+}
+
+.year {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-right: 10px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.year::before {
+  content: url(/images/circle.svg);
+  width: 14px;
+  padding-right: 5px;
+}
+
+.projectDescription {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  margin-left: -10px;
+  line-height: 24px;
+  color: #344563;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+.tags {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0 29px -10px;
+}
+
+.tagsFlex {
+  display: flex;
+  margin-left: -40px;
+}
+
+.html {
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  margin-right: 10px;
+  line-height: 16px;
+  color: #6070ff;
+  background: #ebebff;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.css {
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  margin-right: 10px;
+  line-height: 16px;
+  color: #6070ff;
+  background: #ebebff;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.javascript {
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  margin-right: 10px;
+  line-height: 16px;
+  color: #6070ff;
+  background: #ebebff;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.viewProject {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  width: 124px;
+  height: 48px;
+  border-radius: 8px;
+  padding: 12px;
+  border: 1px solid #6070ff;
+  color: #396df2;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  background-color: #fff;
+  margin-left: -10px;
+  transition: all 0.5s ease-in-out;
+}
+
+button {
+  appearance: auto;
+  text-rendering: auto;
+  color: white;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  box-sizing: border-box;
+}
+
+.project img {
+  width: 100%;
 }
