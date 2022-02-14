@@ -120,10 +120,6 @@ li {
   padding: 16px;
 }
 
-div {
-  display: block;
-}
-
 .title {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -284,6 +280,7 @@ p {
   background-color: #fff;
   margin-left: -10px;
   transition: all 0.5s ease-in-out;
+  float: none;
 }
 
 button {
@@ -296,11 +293,13 @@ button {
   text-transform: none;
   text-indent: 0;
   text-shadow: none;
-  display: inline-block;
   text-align: center;
-  align-items: flex-start;
   cursor: default;
   box-sizing: border-box;
+  clear: left;
+  float: left;
+  display: block;
+  position: relative;
 }
 
 button:hover {
