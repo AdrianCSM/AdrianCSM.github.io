@@ -219,7 +219,7 @@ p {
 .tags {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  display: flex;
+  float: left;
   flex-wrap: wrap;
   gap: 8px;
   margin: 16px 0 29px -10px;
