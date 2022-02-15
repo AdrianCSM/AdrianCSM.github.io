@@ -266,5 +266,32 @@
   </div>
 </section>
 
+            <!-- This is the contact form -->
+
+<section class="contact" id="contactForm">
+    <h2 class="contactHeader">Contact me</h2>
+    <p class="contactDescription">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it</p>
+    <form action="https://formspree.io/f/mgedkave" class="contactForm" method="post">
+      <ul class="contactField">
+        <li>
+          <label for="name"></label>
+          <input class = "contactName" type="text" id="name" name="name" placeholder="Enter your name here ..." maxlength="30" required />
+        </li>
+        <li>
+          <label for="email"></label>
+          <input class="emailAddress" type="email" id="email" name="email" placeholder="Enter your e-mail here ..." required />
+        </li>
+        <li>
+          <label for="message"></label>
+          <textarea class="contactMessage" id="message" placeholder="Type your message here ..." maxlength="500" required></textarea>
+        </li>
+        <li class="formSubmit">
+          <input type="submit" class="submitButton" value="Get In Touch" />
+        </li>
+      </ul>
+    </form>
+</section>
+	  
+
 </body>
 </html>
