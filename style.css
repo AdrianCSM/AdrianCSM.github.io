@@ -120,10 +120,6 @@ li {
   padding: 16px;
 }
 
-div {
-  display: block;
-}
-
 .title {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -219,7 +215,7 @@ p {
 .tags {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  display: flex;
+  float: left;
   flex-wrap: wrap;
   gap: 8px;
   margin: 16px 0 29px -10px;
@@ -284,6 +280,7 @@ p {
   background-color: #fff;
   margin-left: -10px;
   transition: all 0.5s ease-in-out;
+  float: none;
 }
 
 button {
@@ -296,11 +293,13 @@ button {
   text-transform: none;
   text-indent: 0;
   text-shadow: none;
-  display: inline-block;
   text-align: center;
-  align-items: flex-start;
   cursor: default;
   box-sizing: border-box;
+  clear: left;
+  float: left;
+  display: block;
+  position: relative;
 }
 
 button:hover {
@@ -476,4 +475,136 @@ button:active {
 
 .mySkills {
   width: 85%;
+}
+
+.aboutMyself {
+  width: auto;
+}
+
+.contact {
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  margin-left: -8px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #6070ff;
+  background-image: url('images/shapes.png');
+  background-repeat: no-repeat;
+  background-size: 61.5%;
+  background-position: 100% 33%;
+  border-top-left-radius: 5rem;
+  padding-bottom: 20px;
+}
+
+.contactHeader {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-top: 120px;
+}
+
+.contactDescription {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  color: #ebebff;
+  text-align: center;
+  margin: 0.8rem 0 2.8rem;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+input[type='text'],
+select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+input[type='email'],
+select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+label {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #fff;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.submitButton {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  width: 160px;
+  height: 48px;
+  border-radius: 8px;
+  padding: 12px;
+  border: 1px solid #6070ff;
+  color: #396df2;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  background-color: #fff;
+  transition: all 0.5s ease-in-out;
+  margin-top: 16px;
+}
+
+.submitButton:hover {
+  background-color: #6070ff;
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.24), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.submitButton:active {
+  background-color: #2230d2;
+  color: white;
+}
+
+.contactField {
+  padding: 0;
 }
