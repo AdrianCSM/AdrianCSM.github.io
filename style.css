@@ -35,7 +35,7 @@ body {
   background-color: #fff;
 }
 
-.header {
+.headerOne {
   width: 300px;
   margin-top: 20%;
   font-family: 'Poppins', sans-serif;
@@ -482,8 +482,6 @@ button:active {
 }
 
 .contact {
-  padding-left: 30px;
-  padding-right: 30px;
   display: flex;
   margin-left: -8px;
   flex-direction: column;
@@ -495,6 +493,7 @@ button:active {
   background-position: 100% 33%;
   border-top-left-radius: 5rem;
   padding-bottom: 20px;
+  width: auto;
 }
 
 .contactHeader {
@@ -517,6 +516,10 @@ button:active {
   font-weight: 500;
   font-size: 20px;
   line-height: 28px;
+}
+
+.contactContainer {
+  width: 80%;
 }
 
 input[type='text'],
@@ -607,4 +610,180 @@ textarea {
 
 .contactField {
   padding: 0;
+}
+
+.navDesk {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .dropdown {
+    display: none;
+  }
+
+  .mainContainer {
+    /* width: auto; */
+    background-image: url(/images/desktop/desktopBg.svg);
+    background-size: 90%;
+    background-position: 0% 15%;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 140px;
+    padding-bottom: 150px;
+    border-bottom-left-radius: 165px;
+  }
+
+  .headerOne {
+    width: 600px;
+    line-height: 60px;
+    justify-content: start;
+  }
+
+  .desc {
+    width: 85%;
+    line-height: 28px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .socials {
+    width: 30%;
+    margin-right: 10px;
+  }
+
+  .socialsM {
+    width: 30%;
+    margin-right: 10px;
+    padding-top: 6px;
+  }
+
+  .project {
+    padding: 20px 16px 24px 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border-radius: 16px;
+    border: 1px solid #dfe1e6;
+    background-color: #fff;
+    width: auto;
+    height: auto;
+    justify-content: space-around;
+  }
+
+  .description {
+    padding: 48px;
+  }
+
+  .viewProject {
+    width: auto;
+    height: auto;
+  }
+
+  .project img {
+    height: 100%;
+    width: 75%;
+  }
+
+  .subTitle {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 0;
+  }
+
+  .info {
+    margin-left: -10px;
+  }
+
+  .projects {
+    width: auto !important;
+    row-gap: 0;
+  }
+
+  .aboutContainer {
+    flex-direction: row;
+    border-top-right-radius: 80px;
+    background-color: #fff;
+  }
+
+  .aboutMyself {
+    width: 40%;
+    margin-top: -110px;
+    padding: 48px;
+    margin-left: 100px;
+  }
+
+  .about {
+    margin-left: 18px;
+    width: 50%;
+    height: 16%;
+  }
+
+  .mySkills {
+    width: 60%;
+  }
+
+  .skillsTitle {
+    width: 80%;
+  }
+
+  .skillsDescList {
+    width: 100px;
+    height: 100px;
+    margin-left: 0;
+    margin-right: 10px;
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .skillsDesc {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 8px;
+    margin-left: -77px;
+    padding: 9px 30px 0 80px;
+  }
+
+  .contact {
+    background-image: url('images/desktop/contact-desktop.svg');
+    background-position: center center;
+    background-size: auto;
+  }
+
+  .contactContainer {
+    width: 25%;
+  }
+
+  .navDesk {
+    display: flex;
+    width: 50%;
+    margin-left: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menuDesk {
+    display: inline;
+  }
+
+  .menuDesk a {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    list-style: none;
+    margin-right: 16px;
+    text-decoration: none;
+  }
+
+  .formSubmit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
