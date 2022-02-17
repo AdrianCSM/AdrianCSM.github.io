@@ -2,7 +2,15 @@
 
 # Portfolio Project
 
-> This is the navbar and the mobile skeleton of the project.
+ On this project I will create a personal portfolio.
+ 
+ Tasks :
+- [x] Mobile Skeleton
+- [x] Mobile Cards
+- [x] Desktop versions
+- [ ] Animations and transitions
+- [ ] Side menu for mobile 
+- [ ] Modal Cards
 
 ## Built With
 
