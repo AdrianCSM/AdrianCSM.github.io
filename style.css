@@ -371,7 +371,7 @@ button:active {
   margin-top: 6px;
   padding-top: 24px;
   background-color: #fff;
-  width: 65%;
+  width: 90%;
 }
 
 .skillsDropdown {
@@ -400,6 +400,7 @@ button:active {
   padding: 9px 30px 0 20px;
   margin: 12px;
   border-radius: 8px;
+  width: 100%;
 }
 
 .skillsDescList {
@@ -634,7 +635,7 @@ textarea {
   }
 
   .mainContainer {
-    background-image: url(/images/desktop/desktopBg.svg);
+    background-image: url('images/desktop/desktopBg.svg');
     background-size: 90%;
     background-position: 0% 15%;
     align-items: flex-start;
