@@ -113,8 +113,10 @@ body {
   list-style-type: none;
 }
 
-.projects:hover {
+.project:hover {
   transform: scale(1.1);
+  filter: drop-shadow(0px 48px 48px rgba(37, 47, 137, 0.08));
+  border: 2px solid #A7AEFF;
 }
 
 .projectsReverse {
@@ -123,10 +125,6 @@ body {
   justify-content: center;
   padding: 30px 24px;
   list-style-type: none;
-}
-
-.projectsReverse:hover {
-  transform: scale(1.1);
 }
 
 .project {
