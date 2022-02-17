@@ -22,6 +22,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: rotation 2.5s;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg) scale(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .mainContainer {
@@ -118,6 +129,12 @@ body {
   border-radius: 16px;
   border: 1px solid #dfe1e6;
   background-color: #fff;
+}
+
+.project:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 48px 48px rgba(37, 47, 137, 0.08));
+  border: 2px solid #a7aeff;
 }
 
 li {
@@ -275,6 +292,21 @@ p {
   background: #ebebff;
   font-family: "Poppins", sans-serif;
   font-style: normal;
+}
+
+.html:hover {
+  background-color: #7883e0;
+  color: white;
+}
+
+.css:hover {
+  background-color: #7883e0;
+  color: white;
+}
+
+.javascript:hover {
+  background-color: #7883e0;
+  color: white;
 }
 
 .viewProject {
@@ -797,7 +829,7 @@ textarea {
 
   .descriptionReverse {
     order: -1;
-    padding: 24px;
+    padding: 48px;
     margin-top: 32px;
   }
 }
