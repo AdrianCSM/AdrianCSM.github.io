@@ -113,12 +113,6 @@ body {
   list-style-type: none;
 }
 
-.project:hover {
-  transform: scale(1.1);
-  filter: drop-shadow(0px 48px 48px rgba(37, 47, 137, 0.08));
-  border: 2px solid #A7AEFF;
-}
-
 .projectsReverse {
   display: grid;
   row-gap: 88px;
@@ -135,6 +129,12 @@ body {
   border-radius: 16px;
   border: 1px solid #dfe1e6;
   background-color: #fff;
+}
+
+.project:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 48px 48px rgba(37, 47, 137, 0.08));
+  border: 2px solid #a7aeff;
 }
 
 li {
