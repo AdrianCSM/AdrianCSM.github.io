@@ -116,7 +116,11 @@ li {
   display: list-item;
 }
 
-.description .descriptionReverse {
+.description {
+  padding: 16px;
+}
+
+.descriptionReverse {
   padding: 16px;
 }
 
