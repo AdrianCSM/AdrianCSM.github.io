@@ -94,11 +94,19 @@ body {
   padding: 2px;
 }
 
-.projects .projectsReverse {
+.projects {
   display: grid;
   row-gap: 88px;
   justify-content: center;
-  padding: 60px 24px;
+  padding: 30px 24px;
+  list-style-type: none;
+}
+
+.projectsReverse {
+  display: grid;
+  row-gap: 88px;
+  justify-content: center;
+  padding: 30px 24px;
   list-style-type: none;
 }
 
@@ -626,7 +634,6 @@ textarea {
   }
 
   .mainContainer {
-    /* width: auto; */
     background-image: url(/images/desktop/desktopBg.svg);
     background-size: 90%;
     background-position: 0% 15%;
@@ -683,11 +690,6 @@ textarea {
   .viewProject {
     width: auto;
     height: auto;
-  }
-
-  .project img {
-    height: 50%;
-    width: 50%;
   }
 
   .subTitle {
