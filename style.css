@@ -22,6 +22,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: rotation 2.5s;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg) scale(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .mainContainer {
