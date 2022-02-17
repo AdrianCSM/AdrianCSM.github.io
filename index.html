@@ -24,11 +24,21 @@
               <ul class="mobile_nav">
               </ul>
             </nav>  
+
+          <!-- This is the desktop navbar -->
+
+        <nav class="navDesk">
+          <ul class="navList">
+            <li class="menuDesk"><a href="#Portfolio" class="menulink">Portfolio</a></li>
+            <li class="menuDesk"><a href="#About">About</a></li>
+            <li class="menuDesk"><a href="#Contact">Contact</a></li>
+          </ul>
+        </nav> 
       </div>
     </header>
     <main class="parent">
         <section class="mainContainer">
-          <h1 class="header">I'm Adrian<br> Nice to see you!</h1>
+          <h1 class="headerOne">I'm Adrian<br> Nice to see you!</h1>
           <p class="desc">I'm a learning student at Microverse! I can help you build a product, feature or website! If you like what you see and have a project you need coded, don't hestiate to contact me.</p>
           <h2 class="connect">LET'S CONNECT</h2>
           <ul class="socialsBox">
@@ -37,12 +47,12 @@
                   <img src="images/Twitter.svg" alt="twitter" />
                 </a>
               </li>
-            <li>
+            <li class="socials">
                 <a href="https://www.linkedin.com/in/gheorghita-cosmin-adrian-b7781122a/">
                   <img src="images/linkedin.svg" alt="Linkedin" />
                 </a>
             </li>
-            <li class="socials">
+            <li class="socialsM">
                 <a href="#">
                  <img src="images/m_something.svg" alt="M" />
                 </a>
@@ -62,7 +72,7 @@
   </main>
                   <!-- This is the main portfolio page -->
 
-<section id="portfolio">
+<section id="Portfolio">
     <ul class="projects">
         <li class="project">
             <img src="images/Snapshot.svg" alt="Snapshot">
@@ -94,10 +104,10 @@
             </div>
         </li>
     </ul>
-    <ul class="projects">
+    <ul class="projectsReverse">
         <li class="project">
-            <img src="images/Snapshot2.svg" alt="Snapshot">
-            <div class="description">
+          <img src="images/Snapshot2.svg" alt="Snapshot">
+            <div class="descriptionReverse">
                 <h2 class="title">Multi-Post<br>Stories</h2>
                 <div class="info">
                     <p class="subTitle">Canopy</p>
@@ -127,7 +137,7 @@
     </ul>
     <ul class="projects">
         <li class="project">
-            <img src="images/Snapshot3.svg" alt="Snapshot">
+          <img src="images/Snapshot3.svg" alt="Snapshot">
             <div class="description">
                 <h2 class="title">Tonic</h2>
                 <div class="info">
@@ -156,10 +166,10 @@
             </div>
         </li>
     </ul>
-    <ul class="projects">
+    <ul class="projectsReverse">
         <li class="project">
-            <img src="images/Snapshot4.svg" alt="Snapshot">
-            <div class="description">
+          <img src="images/Snapshot4.svg" alt="Snapshot">
+            <div class="descriptionReverse">
                 <h2 class="title">Multi-Post<br>Stories</h2>
                 <div class="info">
                     <p class="subTitle">Canopy</p>
@@ -268,7 +278,8 @@
 
             <!-- This is the contact form -->
 
-<footer class="contact" id="contactForm">
+<footer class="contact" id="Contact">
+   <div class="contactContainer">
     <h2 class="contactHeader">Contact me</h2>
     <p class="contactDescription">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it</p>
     <form action="https://formspree.io/f/mgedkave" class="contactForm" method="post">
@@ -290,6 +301,7 @@
         </li>
       </ul>
     </form>
+    </div>
   </footer>
 	  
 
