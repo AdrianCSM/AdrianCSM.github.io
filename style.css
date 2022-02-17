@@ -113,12 +113,20 @@ body {
   list-style-type: none;
 }
 
+.projects:hover {
+  transform: scale(1.1);
+}
+
 .projectsReverse {
   display: grid;
   row-gap: 88px;
   justify-content: center;
   padding: 30px 24px;
   list-style-type: none;
+}
+
+.projectsReverse:hover {
+  transform: scale(1.1);
 }
 
 .project {
