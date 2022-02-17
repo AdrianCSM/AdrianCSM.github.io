@@ -94,7 +94,7 @@ body {
   padding: 2px;
 }
 
-.projects {
+.projects .projectsReverse {
   display: grid;
   row-gap: 88px;
   justify-content: center;
@@ -116,7 +116,7 @@ li {
   display: list-item;
 }
 
-.description {
+.description .descriptionReverse {
   padding: 16px;
 }
 
@@ -673,6 +673,7 @@ textarea {
 
   .description {
     padding: 48px;
+    margin-top: 32px;
   }
 
   .viewProject {
@@ -681,8 +682,8 @@ textarea {
   }
 
   .project img {
-    height: 100%;
-    width: 75%;
+    height: 50%;
+    width: 50%;
   }
 
   .subTitle {
@@ -696,7 +697,7 @@ textarea {
     margin-left: -10px;
   }
 
-  .projects {
+  .projects .projectsReverse {
     width: auto !important;
     row-gap: 0;
   }
@@ -786,4 +787,11 @@ textarea {
     align-items: center;
     justify-content: center;
   }
+
+  .descriptionReverse {
+    order: -1;
+    padding: 24px;
+    margin-top: 32px;
+  }
+
 }
