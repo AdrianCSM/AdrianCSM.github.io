@@ -294,6 +294,21 @@ p {
   font-style: normal;
 }
 
+.html:hover {
+  background-color: #7883e0;
+  color: white;
+}
+
+.css:hover {
+  background-color: #7883e0;
+  color: white;
+}
+
+.javascript:hover {
+  background-color: #7883e0;
+  color: white;
+}
+
 .viewProject {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -814,7 +829,7 @@ textarea {
 
   .descriptionReverse {
     order: -1;
-    padding: 24px;
+    padding: 48px;
     margin-top: 32px;
   }
 }
