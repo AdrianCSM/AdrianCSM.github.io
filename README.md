@@ -65,6 +65,13 @@ npx hint .
 - Twitter: [Adrian's Twitter](https://twitter.com/CosminAdriannn)
 - LinkedIn: [Adrian's LinkedIn](https://www.linkedin.com/in/gheorghita-cosmin-adrian-b7781122a/)
 
+ 👤 **Rizwan**
+
+- Github: [Rizwan's Github](https://github.com/Rizwan-learn)
+- Twitter: [Rizwan's Twitter](https://twitter.com/RizwanH97)
+- LinkedIn: [Rizwan's LinkedIn](https://www.linkedin.com/in/rizwan-h-4b3096150/)
+
+
 ## Acknowledgments
 
 - [W3School](https://www.w3schools.com/)
