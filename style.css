@@ -135,6 +135,7 @@ body {
   transform: scale(1.1);
   filter: drop-shadow(0 48px 48px rgba(37, 47, 137, 0.08));
   border: 2px solid #a7aeff;
+  transition: all 0.4s ease-in-out;
 }
 
 li {
@@ -297,16 +298,19 @@ p {
 .html:hover {
   background-color: #7883e0;
   color: white;
+  transition: all 0.5s ease-in-out;
 }
 
 .css:hover {
   background-color: #7883e0;
   color: white;
+  transition: all 0.5s ease-in-out;
 }
 
 .javascript:hover {
   background-color: #7883e0;
   color: white;
+  transition: all 0.5s ease-in-out;
 }
 
 .viewProject {
@@ -325,6 +329,13 @@ p {
   margin-left: -10px;
   transition: all 0.5s ease-in-out;
   float: none;
+}
+
+.viewProject:hover {
+  background-color: #396df2;
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.24), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 button {
