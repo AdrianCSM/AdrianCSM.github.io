@@ -331,6 +331,13 @@ p {
   float: none;
 }
 
+.viewProject:hover {
+  background-color: #396df2;
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.24), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
 button {
   appearance: auto;
   text-rendering: auto;
