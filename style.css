@@ -671,6 +671,12 @@ textarea {
 .navDesk {
   display: none;
 }
+.nav_page {
+  height: 100%;
+  position: fixed;
+  transition: 0.5s;
+  opacity: 0.8;
+}
 
 @media screen and (min-width: 992px) {
   .dropdown {
