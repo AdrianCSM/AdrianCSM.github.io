@@ -17,49 +17,50 @@ body {
   justify-content: center;
 }
 
+
 .mobileDrop {
   height: 100%;
   width: 0;
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  position: fixed;
+  z-index: 1;
   left: 0;
   top: 0;
-  background-color: rgb(0,0,0); /* Black fallback color */
-  background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
-  overflow-x: hidden; /* Disable horizontal scroll */
+  background-color: #6070ff;
+  opacity: 0.8;
+  overflow-x: hidden;
   transition: 0.5s;
 }
 
 .mobile_nav {
   position: relative;
-  top: 25%; /* 25% from the top */
-  width: 100%; /* 100% width */
-  text-align: center; /* Centered text/links */
-  margin-top: 30px
+  top: 7.5%;
+  width: 100%;
+  margin-top: 30px;
+  padding-left: 24px;
 }
 
 .mobileDrop a {
   padding: 8px;
   text-decoration: none;
   font-size: 24px;
-  color: #000;
+  color: #fff;
   display: block;
   transition: 0.3s;
   font-family: "Poppins", sans-serif;
-  font-weight: 800;
+  font-weight: bold;
 }
 
-.mobileDrop a:hover, .mobileDrop a:focus {
+.mobileDrop a:hover,
+.mobileDrop a:focus {
   color: #f1f1f1;
 }
 
 .mobileDrop .closebtn {
   position: absolute;
-  top: 20px;
+  top: 60px;
   right: 45px;
   font-size: 60px;
 }
-
 
 .logo {
   width: 25%;
@@ -715,6 +716,7 @@ textarea {
 .navDesk {
   display: none;
 }
+
 .nav_page {
   height: 100%;
   position: fixed;
