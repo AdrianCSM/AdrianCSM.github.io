@@ -1,16 +1,25 @@
-// function openNav() {
-//   document.querySelector(".dropdown").style.width = "100%"
-// }
+const menuIcon = document.querySelector('.nav_menu');
+const sideNav = document.querySelector('.mobileNav');
+const menuLinks = document.querySelectorAll('.menuMobile');
+const mobileMenu = document.querySelector('.parent');
+const logo = document.querySelector('.logo');
 
-// function closeNav() {
-//   document.querySelector(".dropdown").style.width = "0%"
-// }
+const openMenu = () => {
+  sideNav.classList.add('mobileNavActive');
+  menuIcon.classList.add('vanish');
+  mobileMenu.classList.add('blur');
+  logo.classList.add('blur');
+};
 
-const mobileMenu = document.querySelector('.nav_menu');
-const navPage = document.querySelector('.nav_page');
-const menuLinks = document.querySelector('.menuMobile');
+const closeMenu = () => {
+  sideNav.classList.remove('mobileNavActive');
+  mobileMenu.classList.remove('blur');
+  menuIcon.classList.remove('vanish');
+  logo.classList.remove('blur');
+};
 
-const openNav = () => {
-    navPage.classList.add('.nav_page');
-    mobileMenu.classList.add('.nav_menu')
-}
+menuIcon.addEventListener('click', openMenu);
+
+menuLinks.forEach((menuLink) => {
+  menuLink.addEventListener('click', closeMenu);
+});
