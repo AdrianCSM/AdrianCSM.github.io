@@ -1,3 +1,5 @@
+// Mobile menu
+
 const menuIcon = document.querySelector('.nav_menu');
 const sideNav = document.querySelector('.mobileNav');
 const menuLinks = document.querySelectorAll('.menuMobile');
@@ -23,3 +25,5 @@ menuIcon.addEventListener('click', openMenu);
 menuLinks.forEach((menuLink) => {
   menuLink.addEventListener('click', closeMenu);
 });
+
+// Modal Pop-Up
