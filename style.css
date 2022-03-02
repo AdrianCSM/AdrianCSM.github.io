@@ -3,6 +3,14 @@ body {
   margin: 0;
 }
 
+.validationMessage {
+  font-family: "Poppins", sans-serif;
+  font-style: bold;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+}
+
 .navContainer {
   display: flex;
   padding: 20px;
