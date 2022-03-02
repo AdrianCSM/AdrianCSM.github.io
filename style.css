@@ -256,7 +256,7 @@ p {
   margin-left: -40px;
 }
 
-.html {
+.tag {
   padding: 4px 12px;
   border-radius: 8px;
   font-weight: 500;
@@ -269,45 +269,7 @@ p {
   font-style: normal;
 }
 
-.css {
-  padding: 4px 12px;
-  border-radius: 8px;
-  font-weight: 500;
-  font-size: 12px;
-  margin-right: 10px;
-  line-height: 16px;
-  color: #6070ff;
-  background: #ebebff;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-}
-
-.javascript {
-  padding: 4px 12px;
-  border-radius: 8px;
-  font-weight: 500;
-  font-size: 12px;
-  margin-right: 10px;
-  line-height: 16px;
-  color: #6070ff;
-  background: #ebebff;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-}
-
-.html:hover {
-  background-color: #7883e0;
-  color: white;
-  transition: all 0.5s ease-in-out;
-}
-
-.css:hover {
-  background-color: #7883e0;
-  color: white;
-  transition: all 0.5s ease-in-out;
-}
-
-.javascript:hover {
+.tag:hover {
   background-color: #7883e0;
   color: white;
   transition: all 0.5s ease-in-out;
@@ -734,6 +696,56 @@ textarea {
   display: none;
 }
 
+.modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.show {
+  display: flex;
+}
+
+.modalContainer {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 16px;
+  animation-name: animatetop;
+  animation-duration: 0.5s;
+}
+
+@keyframes animatetop {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.cross {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.cross:hover,
+.cross:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 @media screen and (min-width: 992px) {
   .dropdown {
     display: none;
@@ -905,4 +917,46 @@ textarea {
     padding: 48px;
     margin-top: 32px;
   }
+
+  .modalView {
+    margin-left: 20px;
+  }
+
+  .modalDesc {
+    margin-top: -4px;
+    width: 90%;
+  }
+
+  .modalDescContainer {
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px;
+    margin-left: -35px;
+  }
+
+  .btnList button {
+    width: 150px;
+  }
+
+  .btnList {
+    margin-right: 10%;
+  }
+
+  .modalImg {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .imgContainer {
+    width: 100%;
+    height: 25%;
+    overflow: hidden;
+    background-color: #dcdce0;
+  }
+
+  .modalContainer {
+    width: 60%;
+    margin-left: 17.5%;
+  }
+
 }
