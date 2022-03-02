@@ -5,7 +5,8 @@ body {
 
 .validationMessage {
   font-family: "Poppins", sans-serif;
-  font-style: bold;
+  font-style: normal;
+  font-weight: 500;
   color: #fff;
   text-align: center;
   font-size: 18px;
