@@ -3,6 +3,10 @@ body {
   margin: 0;
 }
 
+* {
+  border: 1px solid red;
+}
+
 .validationMessage {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -967,5 +971,4 @@ textarea {
     width: 60%;
     margin-left: 17.5%;
   }
-
 }
