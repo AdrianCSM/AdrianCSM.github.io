@@ -3,14 +3,18 @@
 # Portfolio Project
 
  On this project I will create a personal portfolio.
- 
+ ![Screenshot](https://user-images.githubusercontent.com/90456900/156618536-a90f3733-b202-468b-a26b-bc8d0d744d26.png)
+
  Tasks :
 - [x] Mobile Skeleton
 - [x] Mobile Cards
 - [x] Desktop versions
-- [ ] Animations and transitions
-- [ ] Side menu for mobile 
-- [ ] Modal Cards
+- [x] Animations and transitions
+- [x] Side menu for mobile 
+- [x] Modal Cards
+- [x] Dynamic load
+- [x] Form validation
+- [x] Local storage
 
 ## Built With
 
@@ -18,6 +22,7 @@
 - CSS
 - Webhint
 - Stylelint
+- ESLint
 
 ### Prerequisites
 The basic requirements for building the executable are:
@@ -28,34 +33,6 @@ The basic requirements for building the executable are:
 ## Live Demo (if available)
 
 [Live Demo Link](https://adriancsm.github.io/Microverse-Portfolio/)
-
-# Getting Started
-
-#### Cloning the project
-```
-git clone  git@github.com:AdrianCSM/Microverse-Portfolio.git
-```
-
-## Getting packages and debuging with Stylelint
-```
-npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-```
-##### For validation detection using Stylelint Run
-```
-npx stylelint "**/*.{css,scss}"
-```
-##### from parent source directory
-
-## Getting packages and debuging with Webhint
-```
-npm init -y
-npm install --save-dev hint@6.x
-```
-##### For validation detection using Webhint Run
-```
-npx hint .
-```
-##### from parent source directory
 
 ## Authors
 
@@ -71,9 +48,14 @@ npx hint .
 - Twitter: [Rizwan's Twitter](https://twitter.com/RizwanH97)
 - LinkedIn: [Rizwan's LinkedIn](https://www.linkedin.com/in/rizwan-h-4b3096150/)
 
+ 👤 **Lekan**
+ 
+- Github: [Lekan's Github](https://github.com/d2ndjim)
+- Twitter: [Lekan's Twitter](https://twitter.com/d2ndjim_)
+- LinkedIn: [Lekan's LinkedIn](https://www.linkedin.com/in/lekanj)
 
 ## Acknowledgments
 
 - [W3School](https://www.w3schools.com/)
 - Random youtube tutorials
-- My mentor and coding partner
+- My mentor and coding partners
