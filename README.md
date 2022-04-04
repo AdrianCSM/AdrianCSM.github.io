@@ -3,7 +3,8 @@
 # Portfolio Project
 
  On this project I will create a personal portfolio.
- ![Screenshot](https://user-images.githubusercontent.com/90456900/156618536-a90f3733-b202-468b-a26b-bc8d0d744d26.png)
+![portfolio-full-demo](https://user-images.githubusercontent.com/90456900/161589048-eba2863b-bbfb-4b0b-8707-0fc82da5d0f2.png)
+
 
  Tasks :
 - [x] Mobile Skeleton
