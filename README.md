@@ -32,7 +32,7 @@ The basic requirements for building the executable are:
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://adriancsm.github.io/Microverse-Portfolio/)
+[Live Demo Link](https://adriancsm.github.io/)
 
 ## Authors
 
